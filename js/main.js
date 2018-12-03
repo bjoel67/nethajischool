@@ -5,6 +5,7 @@
 	// bootstrap dropdown hover
 
   // loader
+  
   var loader = function() {
     setTimeout(function() { 
       if($('#loader').length > 0) {
@@ -138,8 +139,6 @@
 	});
 
 
- 
-
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.element-animate').waypoint( function( direction ) {
@@ -177,5 +176,7 @@
 	contentWayPoint();
 
 
-
 })(jQuery);
+
+
+ 
