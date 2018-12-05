@@ -78,6 +78,7 @@ header .navbar .navbar-nav.absolute-right {
     right: inherit;
   }
  school-features d-flex .inner{
+  width:100%;
   }
 }
 header .navbar .nav-link {
