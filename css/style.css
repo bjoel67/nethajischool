@@ -72,6 +72,14 @@ header .navbar .navbar-nav.absolute-right {
   }
 }
 
+@media (max-width: 680px) {
+  header .navbar .navbar-nav.absolute-right {
+    position: absolute;
+    right: inherit;
+  }
+ school-features d-flex .inner{
+  }
+}
 header .navbar .nav-link {
   padding: 1.7rem 1rem;
   font-size: 15px;
@@ -292,6 +300,11 @@ header .navbar.navbar-light .nav-link.active {
   }
 }
 
+.mb-5 h1{
+width:100%;
+font-family:none;
+
+}
 .school-features .feature, .school-features .instructor,
 .school-instructors .feature,
 .school-instructors .instructor {
